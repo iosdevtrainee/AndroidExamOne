@@ -17,7 +17,7 @@ public class Algorithms implements DataStructures {
     @Override
     public ArrayList<Integer> multiplicationTableList(int number) {
         ArrayList<Integer> multiples = new ArrayList<>();
-        for (int x = 0; x < 11; x++){
+        for (int x = 1; x < 11; x++){
             multiples.add(x * number);
         }
         return multiples;
